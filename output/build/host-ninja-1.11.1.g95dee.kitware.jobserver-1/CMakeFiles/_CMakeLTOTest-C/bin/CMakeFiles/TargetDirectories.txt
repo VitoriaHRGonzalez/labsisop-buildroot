@@ -1,0 +1,4 @@
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

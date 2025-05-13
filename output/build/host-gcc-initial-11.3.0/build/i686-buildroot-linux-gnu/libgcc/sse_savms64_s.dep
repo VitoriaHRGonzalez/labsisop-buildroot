@@ -1,0 +1,5 @@
+sse_savms64_s.o: ../../../libgcc/config/i386/sse_savms64.S \
+ ../../../libgcc/config/i386/savms64.h \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cet.h
+../../../libgcc/config/i386/savms64.h:
+/workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cet.h:

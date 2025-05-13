@@ -1,0 +1,3 @@
+morestack_s.o: ../../../libgcc/config/i386/morestack.S \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cet.h
+/workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cet.h:

@@ -1,0 +1,1 @@
+/usr/bin/gcc -O2 -O3 -DNDEBUG -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib -rdynamic CMakeFiles/cmsysTestsC.dir/cmsysTestsC.c.o CMakeFiles/cmsysTestsC.dir/testEncode.c.o CMakeFiles/cmsysTestsC.dir/testTerminal.c.o -o cmsysTestsC  libcmsys_c.a 

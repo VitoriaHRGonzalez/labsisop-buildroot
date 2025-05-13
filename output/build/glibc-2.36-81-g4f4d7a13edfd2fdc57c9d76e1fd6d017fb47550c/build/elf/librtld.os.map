@@ -1,0 +1,1695 @@
+Archive member included to satisfy reference by file (symbol)
+
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__libc_check_standard_fds)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (rtld_errno)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__udivdi3)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__closedir)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__rewinddir)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__readdir64)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__fdopendir)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os) (__getdents64)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (_dl_addr_inside_object)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__profil)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__profile_frequency)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___stat64_time64)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___fstat64_time64)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___lstat64_time64)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___fstatat64_time64)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__openat64)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__lseek)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__access)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___close_nocancel)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___fcntl64_nocancel)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___open_nocancel)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___open64_nocancel)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___read_nocancel)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___pread64_nocancel)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI___write_nocancel)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os) (__cp_stat64_t64_stat64)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__libc_scratch_buffer_set_array_size)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__mmap)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__munmap)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__mprotect)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os) (__gnu_dev_makedev)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__atomic_wide_counter_fetch_add_relaxed)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__lll_lock_wait_private)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__uname)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__GI__exit)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__getpid)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__environ)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__sigsetjmp)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__longjmp)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os) (__sigaction)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os) (__libc_sigaction)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (bsearch)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__strdup)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (strerrorname_np)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (strnlen)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (strncmp)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (rawmemchr)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (memchr)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (memcmp)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (memmove)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (strchr)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (strcpy)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (strcmp)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (strcspn)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (strlen)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__stpcpy)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os) (__setitimer)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os) (__syscall_error)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os) (__libc_do_syscall)
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os) (__get_errname)
+/workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+                              /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (__udivmoddi4)
+
+Merging program properties
+
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os) (0x1)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os) (0x1)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os) (0x1)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os) (0x1)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os) (0x1)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os) (0x0)
+Updated property 0xc0010001 (0x83) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x83) and /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o) (0x1)
+Updated property 0xc0010002 (0x5) to merge /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os (0x5) and /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o) (0x0)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+ .text.__x86.get_pc_thunk.si
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+ .text.__x86.get_pc_thunk.si
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+ .text.__x86.get_pc_thunk.si
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+ .text.__x86.get_pc_thunk.si
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os)
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+LOAD /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a
+LOAD /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a
+END GROUP
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x28
+ .note.gnu.property
+                0x0000000000000000       0x28 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rel.text
+ *(.rel.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rel.ifunc
+ *(.rel.ifunc)
+
+.rel.plt
+ *(.rel.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x1b271
+ *(.text .stub)
+ .text          0x0000000000000000    0x19031 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                _dl_call_libc_early_init
+                0x00000000000001bb                _dl_close_worker
+                0x0000000000000c87                _dl_close
+                0x0000000000000cfc                _dl_debug_state
+                0x0000000000000cfc                __GI__dl_debug_state
+                0x0000000000000cfd                _dl_debug_update
+                0x0000000000000d39                _dl_debug_initialize
+                0x0000000000000e6f                _dl_map_object_deps
+                0x0000000000001b02                _dl_error_free
+                0x0000000000001b27                _dl_exception_create
+                0x0000000000001b27                __GI__dl_exception_create
+                0x0000000000001bcc                __GI__dl_exception_create_format
+                0x0000000000001bcc                _dl_exception_create_format
+                0x0000000000001e0e                _dl_exception_free
+                0x0000000000001e0e                __GI__dl_exception_free
+                0x0000000000001e47                __GI___nptl_change_stack_perm
+                0x0000000000001e47                __nptl_change_stack_perm
+                0x0000000000001e8b                _dl_make_stacks_executable
+                0x00000000000021c4                __GI__dl_find_object
+                0x00000000000021c4                _dl_find_object
+                0x000000000000242e                _dlfo_sort_mappings
+                0x00000000000024ab                _dl_find_object_init
+                0x00000000000025d9                _dl_find_object_update
+                0x000000000000298e                _dl_find_object_dlclose
+                0x00000000000029fa                _dl_find_object_freeres
+                0x0000000000002a63                _dl_fini
+                0x0000000000002e0e                _dl_init
+                0x0000000000003a82                _dl_dst_count
+                0x0000000000003b0d                _dl_dst_substitute
+                0x0000000000004116                _dl_init_paths
+                0x0000000000004468                _dl_process_pt_gnu_property
+                0x0000000000005d0f                _dl_map_object
+                0x000000000000656e                _dl_rtld_di_serinfo
+                0x0000000000006ec7                _dl_lookup_symbol_x
+                0x0000000000007700                _dl_lookup_direct
+                0x000000000000781c                __minimal_malloc
+                0x00000000000078e8                __minimal_calloc
+                0x000000000000792e                __minimal_free
+                0x0000000000007961                __minimal_realloc
+                0x00000000000079e1                _dl_sysdep_read_whole_file
+                0x0000000000007a52                _dl_name_match_p
+                0x0000000000007a9c                _dl_higher_prime_number
+                0x0000000000007ae0                _dl_strtoul
+                0x0000000000007c78                _dl_add_to_namespace_list
+                0x0000000000007d15                _dl_new_object
+                0x000000000000839a                __GI__dl_find_dso_for_object
+                0x000000000000839a                _dl_find_dso_for_object
+                0x0000000000008440                _dl_open
+                0x000000000000867d                _dl_show_scope
+                0x0000000000008fa0                _dl_get_origin
+                0x000000000000946c                _dl_debug_printf
+                0x0000000000009498                _dl_debug_printf_c
+                0x00000000000094c2                _dl_dprintf
+                0x00000000000094de                _dl_printf
+                0x00000000000094fc                _dl_error_printf
+                0x000000000000951a                _dl_fatal_printf
+                0x000000000000951a                __GI__dl_fatal_printf
+                0x000000000000953f                _dl_start_profile
+                0x0000000000009ba5                __GI__dl_mcount
+                0x0000000000009ba5                _dl_mcount
+                0x0000000000009d95                _dl_try_allocate_static_tls
+                0x0000000000009eae                _dl_allocate_static_tls
+                0x0000000000009ef5                _dl_protect_relro
+                0x0000000000009f59                _dl_reloc_bad_type
+                0x0000000000009fb9                _dl_relocate_object
+                0x000000000000be07                _dl_fixup
+                0x000000000000c008                _dl_profile_fixup
+                0x000000000000c268                _dl_scope_free
+                0x000000000000c323                _dl_setup_hash
+                0x000000000000c49b                _dl_sort_maps_init
+                0x000000000000c4d1                _dl_sort_maps
+                0x000000000000c81a                __thread_gscope_wait
+                0x000000000000cbe0                _dl_tls_static_surplus_init
+                0x000000000000cc66                _dl_assign_tls_modid
+                0x000000000000cd3d                _dl_count_modids
+                0x000000000000cd8a                _dl_determine_tlsoffset
+                0x000000000000cf1e                _dl_get_tls_static_info
+                0x000000000000cf43                _dl_allocate_tls_storage
+                0x000000000000cfc8                __GI__dl_allocate_tls_init
+                0x000000000000cfc8                _dl_allocate_tls_init
+                0x000000000000d1e8                __GI__dl_allocate_tls
+                0x000000000000d1e8                _dl_allocate_tls
+                0x000000000000d20d                _dl_deallocate_tls
+                0x000000000000d20d                __GI__dl_deallocate_tls
+                0x000000000000d28b                _dl_update_slotinfo
+                0x000000000000d43a                ___tls_get_addr_internal
+                0x000000000000d43a                ___tls_get_addr
+                0x000000000000d43a                __GI____tls_get_addr
+                0x000000000000d47b                __tls_get_addr
+                0x000000000000d484                _dl_tls_get_addr_soft
+                0x000000000000d4ea                _dl_add_to_slotinfo
+                0x000000000000d5c7                _dl_init_static_tls
+                0x000000000000d6d7                __tls_pre_init_tp
+                0x000000000000d724                __tls_init_tp
+                0x000000000000d820                _dl_runtime_resolve
+                0x000000000000d840                _dl_runtime_resolve_shstk
+                0x000000000000d860                _dl_runtime_profile_shstk
+                0x000000000000d8b0                _dl_runtime_profile
+                0x000000000000d964                _dl_check_map_versions
+                0x000000000000e01d                _dl_check_all_versions
+                0x000000000000e05e                _dl_write
+                0x000000000000e075                _dl_cache_libcmp
+                0x000000000000e6cb                _dl_load_cache_lookup
+                0x000000000000e934                _dl_unload_cache
+                0x000000000000eadd                __GI___tunable_set_val
+                0x000000000000eb08                __GI___tunables_init
+                0x000000000000ee57                __GI___tunables_print
+                0x000000000000ef0e                __tunable_get_val
+                0x000000000000ef0e                __GI___tunable_get_val
+                0x000000000000ef91                _dl_make_tlsdesc_dynamic
+                0x000000000000f1bc                _dl_unmap
+                0x000000000000f240                _dl_tlsdesc_return
+                0x000000000000f250                _dl_tlsdesc_undefweak
+                0x000000000000f260                _dl_tlsdesc_dynamic
+                0x0000000000010189                _dl_x86_init_cpu_features
+                0x0000000000010c0a                __x86_cpu_features
+                0x0000000000010c19                _dl_x86_get_cpu_features
+                0x0000000000010c32                _dl_audit_activity_map
+                0x0000000000010c8a                _dl_audit_activity_nsid
+                0x0000000000010cc4                _dl_audit_objsearch
+                0x0000000000010d46                _dl_audit_objopen
+                0x0000000000010de3                _dl_audit_objclose
+                0x0000000000010e58                _dl_audit_preinit
+                0x0000000000010eb6                _dl_audit_symbind_alt
+                0x0000000000010eb6                __GI__dl_audit_symbind_alt
+                0x0000000000010fcb                _dl_audit_symbind
+                0x000000000001115f                _dl_audit_pltenter
+                0x00000000000112fb                _dl_audit_pltexit
+                0x0000000000011488                _dl_diagnostics_print_string
+                0x00000000000114d5                _dl_diagnostics_print_labeled_string
+                0x0000000000011511                _dl_diagnostics_print_labeled_value
+                0x000000000001155c                _dl_print_diagnostics
+                0x00000000000118fe                _dl_diagnostics_cpu
+                0x0000000000011deb                _dl_diagnostics_kernel
+                0x0000000000011e80                _dl_next_ld_env_entry
+                0x0000000000011ea9                unsetenv
+                0x0000000000011f95                _dl_signal_exception
+                0x0000000000011fe2                _dl_signal_error
+                0x000000000001203b                _dl_signal_cexception
+                0x00000000000120c2                _dl_signal_cerror
+                0x000000000001214a                _dl_catch_exception
+                0x000000000001223c                _dl_catch_error
+                0x000000000001227e                _dl_receive_error
+                0x00000000000122ce                _rtld_catch_error
+                0x00000000000123c8                _dl_important_hwcaps
+                0x0000000000012a08                _dl_hwcaps_subdirs_active
+                0x0000000000012a0b                _dl_hwcaps_split
+                0x0000000000012a5c                _dl_hwcaps_contains
+                0x0000000000012aae                _dl_hwcaps_split_masked
+                0x0000000000012aee                __rtld_libc_freeres
+                0x0000000000012af3                __rtld_malloc_init_stubs
+                0x0000000000012b2e                __sigjmp_save
+                0x0000000000012b3f                __GI___libc_fatal
+                0x0000000000012b3f                __libc_fatal
+                0x0000000000012b5e                __GI___chk_fail
+                0x0000000000012b5e                __chk_fail
+                0x0000000000012b6b                __GI___assert_fail
+                0x0000000000012b6b                __assert_fail
+                0x0000000000012baa                __rtld_malloc_is_complete
+                0x0000000000012c98                __rtld_malloc_init_real
+                0x0000000000012d95                _itoa
+                0x0000000000012e34                __strerror_r
+                0x0000000000012ed0                __GI___assert_perror_fail
+                0x0000000000012ed0                __assert_perror_fail
+                0x0000000000012f29                __strsep
+                0x0000000000012f29                strsep
+                0x0000000000012f29                __strsep_g
+                0x0000000000012f99                __rtld_mutex_init
+                0x0000000000013068                _dl_tunable_set_hwcaps
+                0x00000000000138b7                _dl_sysdep_start
+                0x0000000000013aa5                _dl_sysdep_start_cleanup
+                0x0000000000013aa6                _dl_show_auxv
+                0x0000000000013d74                _dl_usage
+                0x0000000000013dc6                _dl_version
+                0x0000000000013dee                _dl_help
+                0x0000000000014110                _start
+                0x000000000001411e                _dl_start_user
+                0x000000000001513e                handle_preload_list
+                0x0000000000018749                __brk
+                0x0000000000018749                brk
+                0x0000000000018780                sbrk
+                0x0000000000018780                __sbrk
+                0x00000000000187fc                __getcwd
+                0x00000000000187fc                getcwd
+                0x0000000000018e83                openat64
+                0x0000000000018eee                __alloc_dir
+                0x0000000000018f9a                __opendir
+                0x0000000000018f9a                opendir
+ .text          0x0000000000019031      0x10b /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+                0x000000000001910b                __libc_check_standard_fds
+ .text          0x000000000001913c        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os)
+ .text          0x000000000001913c      0x288 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os)
+                0x00000000000192ad                __divdi3
+                0x00000000000192ad                __divdi3@GLIBC_2.0
+                0x00000000000192ad                __divdi3_internal
+                0x00000000000192fc                __moddi3@GLIBC_2.0
+                0x00000000000192fc                __moddi3
+                0x00000000000192fc                __moddi3_internal
+                0x000000000001937d                __udivdi3@GLIBC_2.0
+                0x000000000001937d                __udivdi3
+                0x000000000001937d                __udivdi3_internal
+                0x00000000000193a1                __umoddi3_internal
+                0x00000000000193a1                __umoddi3
+                0x00000000000193a1                __umoddi3@GLIBC_2.0
+ .text          0x00000000000193c4       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+                0x00000000000193c4                __closedir
+                0x00000000000193c4                closedir
+ .text          0x0000000000019408       0x39 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os)
+                0x0000000000019408                rewinddir
+                0x0000000000019408                __rewinddir
+ .text          0x0000000000019441       0x81 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+                0x0000000000019441                __readdir64
+                0x0000000000019441                readdir64
+ .text          0x00000000000194c2       0x86 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                0x00000000000194c2                fdopendir
+                0x00000000000194c2                __fdopendir
+ .text          0x0000000000019548       0x40 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+                0x0000000000019548                getdents64
+                0x0000000000019548                __getdents64
+ .text          0x0000000000019588       0x40 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+                0x0000000000019588                _dl_addr_inside_object
+ .text          0x00000000000195c8      0x104 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+                0x0000000000019603                __profil
+                0x0000000000019603                profil
+ .text          0x00000000000196cc       0x11 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                0x00000000000196cc                __profile_frequency
+ .text          0x00000000000196dd       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os)
+                0x00000000000196dd                __stat64_time64
+                0x00000000000196dd                __GI___stat64_time64
+                0x00000000000196f4                stat64
+                0x00000000000196f4                __stat64
+                0x00000000000196f4                __GI___stat64
+ .text          0x0000000000019721       0x8f /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+                0x0000000000019721                __GI___fstat64_time64
+                0x0000000000019721                __fstat64_time64
+                0x0000000000019762                __GI___fstat64
+                0x0000000000019762                fstat64
+                0x0000000000019762                __fstat64
+ .text          0x00000000000197b0       0x47 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os)
+                0x00000000000197b0                __GI___lstat64_time64
+                0x00000000000197b0                __lstat64_time64
+                0x00000000000197ca                __lstat64
+                0x00000000000197ca                lstat64
+                0x00000000000197ca                __GI___lstat64
+ .text          0x00000000000197f7      0x1c5 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+                0x00000000000197f7                __fstatat64_time64
+                0x00000000000197f7                __GI___fstatat64_time64
+                0x0000000000019989                fstatat64
+                0x0000000000019989                __fstatat64
+                0x0000000000019989                __GI___fstatat64
+ .text          0x00000000000199bc       0x53 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+                0x00000000000199bc                __openat64
+                0x00000000000199bc                __libc_openat64
+ .text          0x0000000000019a0f       0x74 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+                0x0000000000019a0f                lseek
+                0x0000000000019a0f                __lseek
+                0x0000000000019a0f                __libc_lseek
+ .text          0x0000000000019a83       0x31 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+                0x0000000000019a83                access
+                0x0000000000019a83                __access
+ .text          0x0000000000019ab4       0x2e /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+                0x0000000000019ab4                __GI___close_nocancel
+ .text          0x0000000000019ae2       0x77 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+                0x0000000000019ae2                __fcntl64_nocancel_adjusted
+                0x0000000000019b46                __fcntl64_nocancel
+                0x0000000000019b46                __GI___fcntl64_nocancel
+ .text          0x0000000000019b59       0x52 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+                0x0000000000019b59                __GI___open_nocancel
+                0x0000000000019b59                __open_nocancel
+ .text          0x0000000000019bab       0x59 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+                0x0000000000019bab                __GI___open64_nocancel
+                0x0000000000019bab                __open64_nocancel
+ .text          0x0000000000019c04       0x36 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+                0x0000000000019c04                __read_nocancel
+                0x0000000000019c04                __GI___read_nocancel
+ .text          0x0000000000019c3a       0x49 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+                0x0000000000019c3a                __GI___pread64_nocancel
+                0x0000000000019c3a                __pread64_nocancel
+ .text          0x0000000000019c83       0x36 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+                0x0000000000019c83                __GI___write_nocancel
+                0x0000000000019c83                __write_nocancel
+ .text          0x0000000000019cb9       0xe0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+                0x0000000000019cb9                __cp_stat64_t64_stat64
+ .text          0x0000000000019d99       0xc3 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+                0x0000000000019dc0                __libc_scratch_buffer_set_array_size
+ .text          0x0000000000019e5c       0x6c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+                0x0000000000019e5c                __mmap
+                0x0000000000019e5c                mmap
+ *fill*         0x0000000000019ec8        0x8 
+ .text          0x0000000000019ed0       0x1f /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os)
+                0x0000000000019ed0                munmap
+                0x0000000000019ed0                __GI___munmap
+                0x0000000000019ed0                __GI_munmap
+                0x0000000000019ed0                __munmap
+ *fill*         0x0000000000019eef        0x1 
+ .text          0x0000000000019ef0       0x21 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os)
+                0x0000000000019ef0                __mprotect
+                0x0000000000019ef0                __GI___mprotect
+                0x0000000000019ef0                __GI_mprotect
+                0x0000000000019ef0                mprotect
+ .text          0x0000000000019f11       0x78 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os)
+                0x0000000000019f11                gnu_dev_major
+                0x0000000000019f11                __gnu_dev_major
+                0x0000000000019f33                gnu_dev_minor
+                0x0000000000019f33                __gnu_dev_minor
+                0x0000000000019f49                gnu_dev_makedev
+                0x0000000000019f49                __gnu_dev_makedev
+ .text          0x0000000000019f89       0x94 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os)
+                0x0000000000019f89                __atomic_wide_counter_fetch_add_relaxed
+                0x0000000000019fd4                __atomic_wide_counter_load_relaxed
+ .text          0x000000000001a01d      0x11a /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+                0x000000000001a01d                __lll_lock_wait_private
+                0x000000000001a08a                __lll_lock_wait
+                0x000000000001a0f8                __lll_lock_wake_private
+                0x000000000001a117                __lll_lock_wake
+ *fill*         0x000000000001a137        0x9 
+ .text          0x000000000001a140       0x1b /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os)
+                0x000000000001a140                uname
+                0x000000000001a140                __GI_uname
+                0x000000000001a140                __uname
+                0x000000000001a140                __GI___uname
+ .text          0x000000000001a15b       0x46 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+                0x000000000001a15b                _Exit
+                0x000000000001a15b                __GI__exit
+                0x000000000001a15b                _exit
+ *fill*         0x000000000001a1a1        0xf 
+ .text          0x000000000001a1b0        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os)
+                0x000000000001a1b0                __getpid
+                0x000000000001a1b0                getpid
+                0x000000000001a1b0                __GI_getpid
+                0x000000000001a1b0                __GI___getpid
+ .text          0x000000000001a1b8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os)
+ *fill*         0x000000000001a1b8        0x8 
+ .text          0x000000000001a1c0       0x1f /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os)
+                0x000000000001a1c0                __sigsetjmp
+                0x000000000001a1c0                __GI___sigsetjmp
+ *fill*         0x000000000001a1df        0x1 
+ .text          0x000000000001a1e0       0x1b /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os)
+                0x000000000001a1e0                __longjmp
+ .text          0x000000000001a1fb       0x3c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+                0x000000000001a1fb                sigaction
+                0x000000000001a1fb                __sigaction
+ *fill*         0x000000000001a237        0x9 
+ .text          0x000000000001a240      0x125 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+                0x000000000001a250                __libc_sigaction
+ .text          0x000000000001a365       0x4d /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os)
+                0x000000000001a365                bsearch
+ .text          0x000000000001a3b2       0x3e /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+                0x000000000001a3b2                __strdup
+                0x000000000001a3b2                strdup
+ .text          0x000000000001a3f0        0x5 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os)
+                0x000000000001a3f0                strerrorname_np
+ .text          0x000000000001a3f5       0x78 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os)
+                0x000000000001a3f5                __strnlen
+                0x000000000001a3f5                strnlen
+ .text          0x000000000001a46d       0x8b /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os)
+                0x000000000001a46d                strncmp
+ *fill*         0x000000000001a4f8        0x8 
+ .text          0x000000000001a500       0xc6 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os)
+                0x000000000001a500                __rawmemchr
+                0x000000000001a500                rawmemchr
+ *fill*         0x000000000001a5c6        0xa 
+ .text          0x000000000001a5d0      0x19b /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os)
+                0x000000000001a5d0                memchr
+                0x000000000001a5d0                __memchr
+ *fill*         0x000000000001a76b        0x5 
+ .text          0x000000000001a770      0x2d3 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+                0x000000000001a770                bcmp
+                0x000000000001a770                __memcmpeq
+                0x000000000001a770                memcmp
+ *fill*         0x000000000001aa43        0xd 
+ .text          0x000000000001aa50       0x58 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os)
+                0x000000000001aa50                memmove
+ *fill*         0x000000000001aaa8        0x8 
+ .text          0x000000000001aab0      0x1be /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os)
+                0x000000000001aab0                index
+                0x000000000001aab0                strchr
+ *fill*         0x000000000001ac6e        0x2 
+ .text          0x000000000001ac70       0x87 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os)
+                0x000000000001ac70                strcpy
+ *fill*         0x000000000001acf7        0x9 
+ .text          0x000000000001ad00       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os)
+                0x000000000001ad00                strcmp
+ *fill*         0x000000000001ad25        0xb 
+ .text          0x000000000001ad30       0xae /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os)
+                0x000000000001ad30                strcspn
+ *fill*         0x000000000001adde        0x2 
+ .text          0x000000000001ade0       0xbb /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os)
+                0x000000000001ade0                strlen
+ *fill*         0x000000000001ae9b        0x5 
+ .text          0x000000000001aea0       0x8b /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os)
+                0x000000000001aea0                stpcpy
+                0x000000000001aea0                __stpcpy
+ .text          0x000000000001af2b      0x15c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+                0x000000000001af2b                __setitimer64
+                0x000000000001affd                setitimer
+                0x000000000001affd                __setitimer
+ .text          0x000000000001b087       0x17 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+                0x000000000001b087                __syscall_error
+ *fill*         0x000000000001b09e        0x2 
+ .text          0x000000000001b0a0       0x11 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os)
+                0x000000000001b0a0                __libc_do_syscall
+ .text          0x000000000001b0b1       0x39 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+                0x000000000001b0b1                __get_errname
+ .text          0x000000000001b0ea      0x187 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+                0x000000000001b0ea                __udivmoddi4
+ *(.gnu.warning)
+
+.text.__x86.get_pc_thunk.si
+                0x0000000000000000        0x4
+ .text.__x86.get_pc_thunk.si
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                __x86.get_pc_thunk.si
+
+.text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                __x86.get_pc_thunk.bx
+
+.text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4
+ .text.__x86.get_pc_thunk.di
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                __x86.get_pc_thunk.di
+
+.text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                __x86.get_pc_thunk.dx
+
+.text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                __x86.get_pc_thunk.cx
+
+.text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                __x86.get_pc_thunk.ax
+
+.text.compat    0x0000000000000000        0x1
+ .text.compat   0x0000000000000000        0x1 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                __rtld_version_placeholder_1
+                0x0000000000000000                __rtld_version_placeholder@GLIBC_2.34
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x16b5
+ *(.rodata)
+ .rodata        0x0000000000000000     0x10b2 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+ *fill*         0x00000000000010b2        0x2 
+ .rodata        0x00000000000010b4       0x80 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+ *fill*         0x0000000000001134        0xc 
+ .rodata        0x0000000000001140      0x575 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+
+.rodata.str1.1  0x0000000000000000     0x43e3
+ .rodata.str1.1
+                0x0000000000000000     0x4397 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x00000000000026c5                _dl_hwcaps_subdirs
+ .rodata.str1.1
+                0x0000000000004397       0x14 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .rodata.str1.1
+                0x00000000000043ab        0x1 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+ .rodata.str1.1
+                0x00000000000043ac       0x37 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+
+.rodata.str1.4  0x0000000000000000      0x4e9
+ .rodata.str1.4
+                0x0000000000000000      0x4e9 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x00000000000003dc                __GI__itoa_lower_digits
+                0x00000000000003dc                _itoa_lower_digits
+
+.rodata.str1.32
+                0x0000000000000000       0x5b
+ .rodata.str1.32
+                0x0000000000000000       0x5b /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.rodata.cst4    0x0000000000000000        0x8
+ .rodata.cst4   0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000004                __rseq_flags
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x4164
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000     0x2f04 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+ .eh_frame      0x0000000000002f04       0x68 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x0000000000002f6c       0xe0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os)
+ .eh_frame      0x000000000000304c       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003090       0x3c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .eh_frame      0x00000000000030cc       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003110       0x48 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x0000000000003158       0x40 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x0000000000003198       0x40 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .eh_frame      0x00000000000031d8       0x58 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000000003230       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000325c       0x5c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os)
+ .eh_frame      0x00000000000032b8       0x5c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+                                         0x70 (size before relaxing)
+ .eh_frame      0x0000000000003314       0x5c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os)
+ .eh_frame      0x0000000000003370       0x6c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x00000000000033dc       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003420       0x48 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x0000000000003468       0x3c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x00000000000034a4       0x3c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x00000000000034e0       0x64 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000003544       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003588       0x48 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x00000000000035d0       0x40 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x0000000000003610       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003654       0x40 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x0000000000003694       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x00000000000036d8       0x68 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+                                         0x90 (size before relaxing)
+ .eh_frame      0x0000000000003740       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003784       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os)
+ .eh_frame      0x00000000000037b0       0x34 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .eh_frame      0x00000000000037e4       0x84 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os)
+ .eh_frame      0x0000000000003868       0x70 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os)
+ .eh_frame      0x00000000000038d8       0xc8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+                                         0xdc (size before relaxing)
+ .eh_frame      0x00000000000039a0       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os)
+ .eh_frame      0x00000000000039cc       0x38 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x0000000000003a04       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os)
+ .eh_frame      0x0000000000003a30       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .eh_frame      0x0000000000003a5c       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .eh_frame      0x0000000000003a88       0x4c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x0000000000003ad4       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003b18       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os)
+ .eh_frame      0x0000000000003b5c       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003ba0       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os)
+ .eh_frame      0x0000000000003bcc       0x40 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os)
+ .eh_frame      0x0000000000003c0c       0x48 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os)
+ .eh_frame      0x0000000000003c54       0x34 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os)
+ .eh_frame      0x0000000000003c88       0x40 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os)
+ .eh_frame      0x0000000000003cc8       0x90 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+ .eh_frame      0x0000000000003d58       0x48 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os)
+ .eh_frame      0x0000000000003da0       0x68 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os)
+ .eh_frame      0x0000000000003e08       0x48 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os)
+ .eh_frame      0x0000000000003e50       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os)
+ .eh_frame      0x0000000000003e7c      0x110 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os)
+ .eh_frame      0x0000000000003f8c       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os)
+ .eh_frame      0x0000000000003fb8       0x48 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os)
+ .eh_frame      0x0000000000004000       0x70 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000004070       0x2c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000409c       0x44 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os)
+ .eh_frame      0x00000000000040e0       0x3c /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000000411c       0x48 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000      0x938
+ *(.data)
+ .data          0x0000000000000000      0x938 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000000                _rtld_global
+                0x0000000000000000                _rtld_local
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+ .data          0x0000000000000938        0x0 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.data.rel.ro    0x0000000000000000     0x1274
+ .data.rel.ro   0x0000000000000000     0x1274 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000020                __rtld_search_dirs
+                0x0000000000000034                __rtld_env_path_list
+                0x000000000000003c                __stack_prot
+                0x0000000000000040                __rseq_offset
+                0x0000000000000044                __rseq_size
+                0x0000000000000e98                __x86_cpu_features_p
+                0x0000000000000e9c                __rtld_realloc
+                0x0000000000000ea0                __rtld_malloc
+                0x0000000000000ea4                __rtld_free
+                0x0000000000000ea8                __rtld_calloc
+                0x0000000000000eac                ___rtld_mutex_unlock
+                0x0000000000000eb0                ___rtld_mutex_lock
+                0x0000000000000eb4                _dl_random
+                0x0000000000000eb8                __libc_stack_end
+                0x0000000000000eb8                __GI___libc_stack_end
+                0x0000000000000ebc                __GI___libc_enable_secure
+                0x0000000000000ebc                __libc_enable_secure
+                0x0000000000000ed0                __pointer_chk_guard_local
+                0x0000000000000ed4                __GI__dl_argv
+                0x0000000000000ed4                _dl_argv
+                0x0000000000000ed8                _dl_argc
+                0x0000000000000ee0                _rtld_global_ro
+                0x0000000000000ee0                _rtld_local_ro
+
+.data.rel.ro.local
+                0x0000000000000000       0x10
+ .data.rel.ro.local
+                0x0000000000000000       0x10 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000       0xe8
+ *(.bss)
+ .bss           0x0000000000000000       0xcc /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+                0x0000000000000004                _r_debug_extended
+                0x0000000000000004                _r_debug
+                0x0000000000000068                __nptl_initial_report_events
+                0x0000000000000068                __GI___nptl_initial_report_events
+                0x0000000000000090                _dl_hwcaps_priorities_length
+                0x0000000000000094                _dl_hwcaps_priorities
+                0x00000000000000c8                ___brk_addr
+                0x00000000000000c8                __curbrk
+ .bss           0x00000000000000cc        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .bss           0x00000000000000cc        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os)
+                0x00000000000000cc                rtld_errno
+ .bss           0x00000000000000d0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os)
+ .bss           0x00000000000000d0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+ .bss           0x00000000000000d0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .bss           0x00000000000000d0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+ .bss           0x00000000000000d0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .bss           0x00000000000000d0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+ .bss           0x00000000000000d0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .bss           0x00000000000000d0       0x10 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os)
+ .bss           0x00000000000000e0        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os)
+ .bss           0x00000000000000e0        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+                0x00000000000000e0                __pthread_force_elision
+ .bss           0x00000000000000e4        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os)
+ .bss           0x00000000000000e4        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+ .bss           0x00000000000000e4        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os)
+ .bss           0x00000000000000e4        0x4 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os)
+                0x00000000000000e4                _environ
+                0x00000000000000e4                __environ
+                0x00000000000000e4                environ
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+ .bss           0x00000000000000e8        0x0 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0xe2a
+ *(.comment)
+ .comment       0x0000000000000000      0x7ce /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+ .comment       0x00000000000007ce       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .comment       0x00000000000007f3       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os)
+ .comment       0x0000000000000818       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os)
+ .comment       0x000000000000083d       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+ .comment       0x0000000000000862       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .comment       0x0000000000000887       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+ .comment       0x00000000000008ac       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .comment       0x00000000000008d1       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+ .comment       0x00000000000008f6       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .comment       0x000000000000091b       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .comment       0x0000000000000940       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .comment       0x0000000000000965       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os)
+ .comment       0x000000000000098a       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+ .comment       0x00000000000009af       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os)
+ .comment       0x00000000000009d4       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+ .comment       0x00000000000009f9       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+ .comment       0x0000000000000a1e       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+ .comment       0x0000000000000a43       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+ .comment       0x0000000000000a68       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+ .comment       0x0000000000000a8d       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+ .comment       0x0000000000000ab2       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+ .comment       0x0000000000000ad7       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+ .comment       0x0000000000000afc       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+ .comment       0x0000000000000b21       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+ .comment       0x0000000000000b46       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+ .comment       0x0000000000000b6b       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+ .comment       0x0000000000000b90       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .comment       0x0000000000000bb5       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+ .comment       0x0000000000000bda       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os)
+ .comment       0x0000000000000bff       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os)
+ .comment       0x0000000000000c24       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+ .comment       0x0000000000000c49       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+ .comment       0x0000000000000c6e       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os)
+ .comment       0x0000000000000c93       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .comment       0x0000000000000cb8       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+ .comment       0x0000000000000cdd       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os)
+ .comment       0x0000000000000d02       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+ .comment       0x0000000000000d27       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os)
+ .comment       0x0000000000000d4c       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os)
+ .comment       0x0000000000000d71       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os)
+ .comment       0x0000000000000d96       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .comment       0x0000000000000dbb       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+ .comment       0x0000000000000de0       0x25 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+ .comment       0x0000000000000e05       0x25 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/dl-allobjs.os
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errno.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-divdi3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-closedir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-readdir64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getdents64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-profil.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lstat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fstatat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-openat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lseek.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-access.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-close_nocancel.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-fcntl_nocancel.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open_nocancel.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-open64_nocancel.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-read_nocancel.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-pread64_nocancel.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-write_nocancel.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stat_t64_cp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-scratch_buffer_set_array_size.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mmap.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-munmap.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-makedev.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-atomic_wide_counter.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-lowlevellock.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-uname.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-_exit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-getpid.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-environ.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc_sigaction.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-bsearch.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strdup.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strerrorname_np.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strnlen.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strncmp-c.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-rawmemchr-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memchr-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memcmp-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-memmove-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strchr-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcpy-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcmp-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strcspn-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-strlen-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-stpcpy-ia32.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-setitimer.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-sysdep.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-libc-do-syscall.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/rtld-libc.a(rtld-errname.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x278
+ *(.debug_info)
+ .debug_info    0x0000000000000000      0x278 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.debug_abbrev   0x0000000000000000      0x10a
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x10a /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.debug_line     0x0000000000000000      0x1e9
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x1e9 /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x1da
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x1da /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000      0x11c
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000      0x11c /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.debug_loclists
+                0x0000000000000000      0x2bf
+ *(.debug_loclists)
+ .debug_loclists
+                0x0000000000000000      0x2bf /workspaces/labsisop-buildroot/output/host/lib/gcc/i686-buildroot-linux-gnu/11.3.0/libgcc.a(_udivmoddi4.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/elf/librtld.os elf32-i386)

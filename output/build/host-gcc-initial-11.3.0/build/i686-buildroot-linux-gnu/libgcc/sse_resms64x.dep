@@ -1,0 +1,6 @@
+sse_resms64x.o: ../../../libgcc/config/i386/sse_resms64x.S \
+ sse_resms64x.vis ../../../libgcc/config/i386/resms64x.h \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cet.h
+sse_resms64x.vis:
+../../../libgcc/config/i386/resms64x.h:
+/workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cet.h:

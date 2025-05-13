@@ -1,0 +1,3 @@
+/workspaces/labsisop-buildroot/package/qemu/0001-tests-fp-disable-fp-bench-build-by-default.patch
+/workspaces/labsisop-buildroot/package/qemu/0002-softmmu-qemu-seccomp.c-add-missing-header-for-CLONE_.patch
+/workspaces/labsisop-buildroot/package/qemu/0003-target-sh4-Mask-restore-of-env-flags-from-tb-flags.patch

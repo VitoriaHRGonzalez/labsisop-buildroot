@@ -1,0 +1,10 @@
+prefix=/workspaces/labsisop-buildroot/output/host
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: GThread
+Description: Thread support for GLib
+Version: 2.72.3
+Requires: glib-2.0
+Libs: -L${libdir} -lgthread-2.0 -pthread
+Cflags: -I${includedir} -pthread

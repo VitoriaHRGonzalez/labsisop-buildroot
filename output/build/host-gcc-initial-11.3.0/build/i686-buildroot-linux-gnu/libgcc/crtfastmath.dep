@@ -1,0 +1,3 @@
+crtfastmath.o: ../../../libgcc/config/i386/crtfastmath.c \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cpuid.h
+/workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cpuid.h:

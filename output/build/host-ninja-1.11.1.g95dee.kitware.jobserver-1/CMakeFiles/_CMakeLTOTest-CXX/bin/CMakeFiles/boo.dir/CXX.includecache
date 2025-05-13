@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+

@@ -1,0 +1,1 @@
+cmd_modutils/lib.a := rm -f modutils/lib.a; /workspaces/labsisop-buildroot/output/host/bin/i686-buildroot-linux-gnu-gcc-ar  rcs modutils/lib.a modutils/insmod.o modutils/lsmod.o modutils/modprobe.o modutils/modutils.o modutils/rmmod.o

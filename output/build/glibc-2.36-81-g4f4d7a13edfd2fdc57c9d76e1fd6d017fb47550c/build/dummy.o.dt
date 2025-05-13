@@ -1,0 +1,15 @@
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/dummy.o: \
+ /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/dummy.c \
+ /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/libc-modules.h \
+ ../include/libc-symbols.h \
+ /workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/config.h \
+ ../sysdeps/generic/libc-symver.h ../sysdeps/i386/symbol-hacks.h \
+ ../sysdeps/wordsize-32/divdi3-symbol-hacks.h \
+ ../sysdeps/generic/symbol-hacks.h
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/libc-modules.h:
+../include/libc-symbols.h:
+/workspaces/labsisop-buildroot/output/build/glibc-2.36-81-g4f4d7a13edfd2fdc57c9d76e1fd6d017fb47550c/build/config.h:
+../sysdeps/generic/libc-symver.h:
+../sysdeps/i386/symbol-hacks.h:
+../sysdeps/wordsize-32/divdi3-symbol-hacks.h:
+../sysdeps/generic/symbol-hacks.h:

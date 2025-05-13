@@ -1,0 +1,11 @@
+prefix=/workspaces/labsisop-buildroot/output/host
+exec_prefix=/workspaces/labsisop-buildroot/output/host
+libdir=/workspaces/labsisop-buildroot/output/host/lib
+includedir=/workspaces/labsisop-buildroot/output/host/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.0
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

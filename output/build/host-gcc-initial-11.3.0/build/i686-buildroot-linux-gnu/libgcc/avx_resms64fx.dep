@@ -1,0 +1,6 @@
+avx_resms64fx.o: ../../../libgcc/config/i386/avx_resms64fx.S \
+ avx_resms64fx.vis ../../../libgcc/config/i386/resms64fx.h \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cet.h
+avx_resms64fx.vis:
+../../../libgcc/config/i386/resms64fx.h:
+/workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cet.h:

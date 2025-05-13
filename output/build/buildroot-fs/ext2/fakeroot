@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /workspaces/labsisop-buildroot/output/build/buildroot-fs/ext2/target
+/workspaces/labsisop-buildroot/output/host/bin/makedevs -d /workspaces/labsisop-buildroot/output/build/buildroot-fs/full_devices_table.txt /workspaces/labsisop-buildroot/output/build/buildroot-fs/ext2/target
+   	rm -rf /workspaces/labsisop-buildroot/output/build/buildroot-fs/ext2/target/usr/lib/udev/hwdb.d/ /workspaces/labsisop-buildroot/output/build/buildroot-fs/ext2/target/etc/udev/hwdb.d/
+find /workspaces/labsisop-buildroot/output/build/buildroot-fs/ext2/target/run/ -mindepth 1 -prune -print0 | xargs -0r rm -rf --
+find /workspaces/labsisop-buildroot/output/build/buildroot-fs/ext2/target/tmp/ -mindepth 1 -prune -print0 | xargs -0r rm -rf --
+   
+   
+   	rm -f /workspaces/labsisop-buildroot/output/images/rootfs.ext2
+	/workspaces/labsisop-buildroot/output/host/sbin/mkfs.ext2 -d /workspaces/labsisop-buildroot/output/build/buildroot-fs/ext2/target -r 1 -N 0 -m 5 -L "rootfs" -I 256 -O ^64bit /workspaces/labsisop-buildroot/output/images/rootfs.ext2 "60M" || { ret=$?; echo "*** Maybe you need to increase the filesystem size (BR2_TARGET_ROOTFS_EXT2_SIZE)" 1>&2; exit $ret; }

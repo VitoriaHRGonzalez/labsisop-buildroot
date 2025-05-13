@@ -1,0 +1,5 @@
+/workspaces/labsisop-buildroot/package/binutils//2.38/0001-sh-conf.patch
+/workspaces/labsisop-buildroot/package/binutils//2.38/0002-poison-system-directories.patch
+/workspaces/labsisop-buildroot/package/binutils//2.38/0003-bfd-elf32-or1k-fix-building-with-gcc-version-5.patch
+/workspaces/labsisop-buildroot/package/binutils//2.38/0004-or1k-Avoid-R_OR1K_GOT16-signed-overflow-by-using-spe.patch
+/workspaces/labsisop-buildroot/package/binutils//2.38/0005-binutils-2.38-vs.-ppc32-linux-kernel.patch

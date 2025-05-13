@@ -1,0 +1,2 @@
+/workspaces/labsisop-buildroot/package/meson/0001-Prefer-ext-static-libs-when-default-library-static.patch
+/workspaces/labsisop-buildroot/package/meson/0002-mesonbuild-dependencies-base.py-add-pkg_config_stati.patch

@@ -1,0 +1,5 @@
+@set version-GCC 11.3.0
+@clear DEVELOPMENT
+@set srcdir /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/../../gcc
+@set VERSION_PACKAGE (Buildroot -g22acba568) 
+@set BUGURL @uref{http://bugs.buildroot.net/}

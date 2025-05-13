@@ -1,0 +1,6 @@
+host-slirp,./include/slirp/libslirp.h
+host-slirp,./include/slirp/libslirp-version.h
+host-slirp,./lib/pkgconfig/slirp.pc
+host-slirp,./lib/libslirp.so.0.4.0
+host-slirp,./lib/libslirp.so.0
+host-slirp,./lib/libslirp.so

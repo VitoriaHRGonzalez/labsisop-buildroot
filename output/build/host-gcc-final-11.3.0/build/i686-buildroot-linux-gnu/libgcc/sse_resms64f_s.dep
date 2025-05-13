@@ -1,0 +1,7 @@
+sse_resms64f_s.o: ../../../libgcc/config/i386/sse_resms64f.S \
+ /workspaces/labsisop-buildroot/output/host/i686-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
+ ../../../libgcc/config/i386/resms64f.h \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-final-11.3.0/build/gcc/include/cet.h
+/workspaces/labsisop-buildroot/output/host/i686-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h:
+../../../libgcc/config/i386/resms64f.h:
+/workspaces/labsisop-buildroot/output/build/host-gcc-final-11.3.0/build/gcc/include/cet.h:

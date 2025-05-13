@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "./configure --prefix=/workspaces/labsisop-buildroot/output/host --sysconfdir=/workspaces/labsisop-buildroot/output/host/etc --localstatedir=/workspaces/labsisop-buildroot/output/host/var --enable-shared --disable-static --disable-gtk-doc --disable-gtk-doc-html --disable-doc --disable-docs --disable-documentation --disable-debug --with-xmlto=no --with-fop=no --disable-nls --disable-dependency-tracking --target=i686-buildroot-linux-gnu --with-sysroot=/workspaces/labsisop-buildroot/output/host/i686-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/workspaces/labsisop-buildroot/output/host --with-mpc=/workspaces/labsisop-buildroot/output/host --with-mpfr=/workspaces/labsisop-buildroot/output/host --with-pkgversion='Buildroot -g22acba568' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --enable-libquadmath --enable-libquadmath-support --enable-tls --enable-threads --without-isl --without-cloog --with-arch=pentiumpro --enable-languages=c --disable-shared --without-headers --disable-threads --with-newlib --disable-largefile";
+static const char thread_model[] = "single";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "cpu", "generic" }, { "arch", "pentiumpro" } };

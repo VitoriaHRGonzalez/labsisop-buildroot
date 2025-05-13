@@ -1,0 +1,3128 @@
+Determining if the environ exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ad834/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ad834.dir/build.make CMakeFiles/cmTC_ad834.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad834.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2  -std=gnu11 -o CMakeFiles/cmTC_ad834.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘environ’ undeclared (first use in this function)
+    8 |   return ((int*)(&environ))[argc];
+      |                   ^~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_ad834.dir/build.make:78: CMakeFiles/cmTC_ad834.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_ad834/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef environ
+  return ((int*)(&environ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_34371/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_34371.dir/build.make CMakeFiles/cmTC_34371.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34371.dir/src.c.o
+/usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -O2  -std=gnu11 -o CMakeFiles/cmTC_34371.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_34371
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_34371.dir/link.txt --verbose=1
+/usr/bin/gcc -O2  -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_34371.dir/src.c.o -o cmTC_34371 
+/usr/bin/ld: CMakeFiles/cmTC_34371.dir/src.c.o: in function `main':
+src.c:(.text.startup+0x29): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text.startup+0x32): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text.startup+0x3b): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text.startup+0x46): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_34371.dir/build.make:99: cmTC_34371] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_34371/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_92a0f/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_92a0f.dir/build.make CMakeFiles/cmTC_92a0f.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92a0f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu11 -o CMakeFiles/cmTC_92a0f.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92a0f
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_92a0f.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -DCHECK_FUNCTION_EXISTS=pthread_create -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_92a0f.dir/CheckFunctionExists.c.o -o cmTC_92a0f  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_92a0f.dir/build.make:99: cmTC_92a0f] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_92a0f/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0c95b/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_0c95b.dir/build.make CMakeFiles/cmTC_0c95b.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c95b.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/g++ -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -O2  -std=gnu++17 -o CMakeFiles/cmTC_0c95b.dir/kwsysPlatformTestsCXX.cxx.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/kwsysPlatformTestsCXX.cxx:53:13: error: ‘environ’ was not declared in this scope; did you mean ‘union’?
+   53 |   char* e = environ[0];
+      |             ^~~~~~~
+      |             union
+make[2]: *** [CMakeFiles/cmTC_0c95b.dir/build.make:78: CMakeFiles/cmTC_0c95b.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_0c95b/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4518a/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_4518a.dir/build.make CMakeFiles/cmTC_4518a.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4518a.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/g++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -O2  -std=gnu++17 -o CMakeFiles/cmTC_4518a.dir/kwsysPlatformTestsCXX.cxx.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/kwsysPlatformTestsCXX.cxx:26:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   26 |   (void)stat1.st_mtimespec.tv_sec;
+      |               ^~~~~~~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/kwsysPlatformTestsCXX.cxx:27:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   27 |   (void)stat1.st_mtimespec.tv_nsec;
+      |               ^~~~~~~~~~~~
+make[2]: *** [CMakeFiles/cmTC_4518a.dir/build.make:78: CMakeFiles/cmTC_4518a.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_4518a/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists in the socket;dl failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fbb46/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_fbb46.dir/build.make CMakeFiles/cmTC_fbb46.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbb46.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=connect -std=gnu11 -o CMakeFiles/cmTC_fbb46.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fbb46
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_fbb46.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=connect -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_fbb46.dir/CheckFunctionExists.c.o -o cmTC_fbb46  -lsocket -ldl 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_fbb46.dir/build.make:99: cmTC_fbb46] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_fbb46/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function recv exists in the network;dl failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_38017/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_38017.dir/build.make CMakeFiles/cmTC_38017.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38017.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=recv -std=gnu11 -o CMakeFiles/cmTC_38017.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38017
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_38017.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=recv -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_38017.dir/CheckFunctionExists.c.o -o cmTC_38017  -lnetwork -ldl 
+/usr/bin/ld: cannot find -lnetwork
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_38017.dir/build.make:99: cmTC_38017] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_38017/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl;cmnghttp2 failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a077b/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_a077b.dir/build.make CMakeFiles/cmTC_a077b.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a077b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=dlopen -std=gnu11 -o CMakeFiles/cmTC_a077b.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a077b
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_a077b.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=dlopen -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_a077b.dir/CheckFunctionExists.c.o -o cmTC_a077b  -ldl -lcmnghttp2 
+/usr/bin/ld: cannot find -lcmnghttp2
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_a077b.dir/build.make:99: cmTC_a077b] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_a077b/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdio.h;inttypes.h;sys/filio.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2eed2/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_2eed2.dir/build.make CMakeFiles/cmTC_2eed2.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2eed2.dir/HAVE_SYS_FILIO_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_2eed2.dir/HAVE_SYS_FILIO_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c:4:10: fatal error: sys/filio.h: No such file or directory
+    4 | #include <sys/filio.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_2eed2.dir/build.make:78: CMakeFiles/cmTC_2eed2.dir/HAVE_SYS_FILIO_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_2eed2/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/sockio.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_98c13/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_98c13.dir/build.make CMakeFiles/cmTC_98c13.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98c13.dir/HAVE_SYS_SOCKIO_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_98c13.dir/HAVE_SYS_SOCKIO_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKIO_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKIO_H.c:10:10: fatal error: sys/sockio.h: No such file or directory
+   10 | #include <sys/sockio.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_98c13.dir/build.make:78: CMakeFiles/cmTC_98c13.dir/HAVE_SYS_SOCKIO_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_98c13/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/utime.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_20140/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_20140.dir/build.make CMakeFiles/cmTC_20140.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20140.dir/HAVE_SYS_UTIME_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_20140.dir/HAVE_SYS_UTIME_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c:15:10: fatal error: sys/utime.h: No such file or directory
+   15 | #include <sys/utime.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_20140.dir/build.make:78: CMakeFiles/cmTC_20140.dir/HAVE_SYS_UTIME_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_20140/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/utime.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;io.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_125ec/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_125ec.dir/build.make CMakeFiles/cmTC_125ec.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_125ec.dir/HAVE_IO_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_125ec.dir/HAVE_IO_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c:24:10: fatal error: io.h: No such file or directory
+   24 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_125ec.dir/build.make:78: CMakeFiles/cmTC_125ec.dir/HAVE_IO_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_125ec/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;krb.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4c39d/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_4c39d.dir/build.make CMakeFiles/cmTC_4c39d.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c39d.dir/HAVE_KRB_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_4c39d.dir/HAVE_KRB_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_KRB_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_KRB_H.c:24:10: fatal error: krb.h: No such file or directory
+   24 | #include <krb.h>
+      |          ^~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_4c39d.dir/build.make:78: CMakeFiles/cmTC_4c39d.dir/HAVE_KRB_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_4c39d/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <krb.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;pem.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7eba/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_d7eba.dir/build.make CMakeFiles/cmTC_d7eba.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7eba.dir/HAVE_PEM_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_d7eba.dir/HAVE_PEM_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_PEM_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_PEM_H.c:30:10: fatal error: pem.h: No such file or directory
+   30 | #include <pem.h>
+      |          ^~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_d7eba.dir/build.make:78: CMakeFiles/cmTC_d7eba.dir/HAVE_PEM_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_d7eba/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <pem.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;ssl.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9e8bb/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_9e8bb.dir/build.make CMakeFiles/cmTC_9e8bb.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e8bb.dir/HAVE_SSL_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_9e8bb.dir/HAVE_SSL_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SSL_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SSL_H.c:34:10: fatal error: ssl.h: No such file or directory
+   34 | #include <ssl.h>
+      |          ^~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_9e8bb.dir/build.make:78: CMakeFiles/cmTC_9e8bb.dir/HAVE_SSL_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_9e8bb/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;stropts.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ba32c/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ba32c.dir/build.make CMakeFiles/cmTC_ba32c.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba32c.dir/HAVE_STROPTS_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_ba32c.dir/HAVE_STROPTS_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c:40:10: fatal error: stropts.h: No such file or directory
+   40 | #include <stropts.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_ba32c.dir/build.make:78: CMakeFiles/cmTC_ba32c.dir/HAVE_STROPTS_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_ba32c/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;x509.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7049b/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_7049b.dir/build.make CMakeFiles/cmTC_7049b.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7049b.dir/HAVE_X509_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_7049b.dir/HAVE_X509_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_X509_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_X509_H.c:45:10: fatal error: x509.h: No such file or directory
+   45 | #include <x509.h>
+      |          ^~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_7049b.dir/build.make:78: CMakeFiles/cmTC_7049b.dir/HAVE_X509_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_7049b/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <x509.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;process.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_65407/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_65407.dir/build.make CMakeFiles/cmTC_65407.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65407.dir/HAVE_PROCESS_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_65407.dir/HAVE_PROCESS_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_PROCESS_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_PROCESS_H.c:45:10: fatal error: process.h: No such file or directory
+   45 | #include <process.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_65407.dir/build.make:78: CMakeFiles/cmTC_65407.dir/HAVE_PROCESS_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_65407/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <process.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h;memory.h;netinet/if_ether.h;stdint.h;sockio.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89243/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_89243.dir/build.make CMakeFiles/cmTC_89243.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89243.dir/HAVE_SOCKIO_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_89243.dir/HAVE_SOCKIO_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SOCKIO_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SOCKIO_H.c:51:10: fatal error: sockio.h: No such file or directory
+   51 | #include <sockio.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_89243.dir/build.make:78: CMakeFiles/cmTC_89243.dir/HAVE_SOCKIO_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_89243/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if the stricmp exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9038a/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_9038a.dir/build.make CMakeFiles/cmTC_9038a.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9038a.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_9038a.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: error: ‘stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   57 |   return ((int*)(&stricmp))[argc];
+      |                   ^~~~~~~
+      |                   strncmp
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_9038a.dir/build.make:78: CMakeFiles/cmTC_9038a.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_9038a/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c7bc3/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_c7bc3.dir/build.make CMakeFiles/cmTC_c7bc3.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7bc3.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_c7bc3.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: error: ‘strcmpi’ undeclared (first use in this function); did you mean ‘strcmp’?
+   57 |   return ((int*)(&strcmpi))[argc];
+      |                   ^~~~~~~
+      |                   strcmp
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_c7bc3.dir/build.make:78: CMakeFiles/cmTC_c7bc3.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_c7bc3/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmpi exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_50a82/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_50a82.dir/build.make CMakeFiles/cmTC_50a82.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50a82.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_50a82.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: error: ‘strncmpi’ undeclared (first use in this function); did you mean ‘strncmp’?
+   57 |   return ((int*)(&strncmpi))[argc];
+      |                   ^~~~~~~~
+      |                   strncmp
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_50a82.dir/build.make:78: CMakeFiles/cmTC_50a82.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_50a82/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the closesocket exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_553e7/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_553e7.dir/build.make CMakeFiles/cmTC_553e7.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_553e7.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_553e7.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: error: ‘closesocket’ undeclared (first use in this function)
+   57 |   return ((int*)(&closesocket))[argc];
+      |                   ^~~~~~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_553e7.dir/build.make:78: CMakeFiles/cmTC_553e7.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_553e7/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpass_r exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75175/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_75175.dir/build.make CMakeFiles/cmTC_75175.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75175.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_75175.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: error: ‘getpass_r’ undeclared (first use in this function); did you mean ‘getpass’?
+   57 |   return ((int*)(&getpass_r))[argc];
+      |                   ^~~~~~~~~
+      |                   getpass
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_75175.dir/build.make:78: CMakeFiles/cmTC_75175.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_75175/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpass_r
+  return ((int*)(&getpass_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3109b/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_3109b.dir/build.make CMakeFiles/cmTC_3109b.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3109b.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_3109b.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: error: ‘_strtoi64’ undeclared (first use in this function)
+   57 |   return ((int*)(&_strtoi64))[argc];
+      |                   ^~~~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_3109b.dir/build.make:78: CMakeFiles/cmTC_3109b.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_3109b/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bff56/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_bff56.dir/build.make CMakeFiles/cmTC_bff56.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bff56.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_bff56.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: error: ‘setmode’ undeclared (first use in this function)
+   57 |   return ((int*)(&setmode))[argc];
+      |                   ^~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_bff56.dir/build.make:78: CMakeFiles/cmTC_bff56.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_bff56/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c3f8/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5c3f8.dir/build.make CMakeFiles/cmTC_5c3f8.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c3f8.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=mach_absolute_time -std=gnu11 -o CMakeFiles/cmTC_5c3f8.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c3f8
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_5c3f8.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=mach_absolute_time -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_5c3f8.dir/CheckFunctionExists.c.o -o cmTC_5c3f8 
+/usr/bin/ld: CMakeFiles/cmTC_5c3f8.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `mach_absolute_time'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_5c3f8.dir/build.make:99: cmTC_5c3f8] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_5c3f8/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Performing Curl Test HAVE_FSETXATTR_6 failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1de58/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_1de58.dir/build.make CMakeFiles/cmTC_1de58.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1de58.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_FSETXATTR_6  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_1de58.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:463:3: error: too many arguments to function ‘fsetxattr’
+  463 |   fsetxattr(0, 0, 0, 0, 0, 0);
+      |   ^~~~~~~~~
+In file included from /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:460:
+/usr/include/x86_64-linux-gnu/sys/xattr.h:54:12: note: declared here
+   54 | extern int fsetxattr (int __fd, const char *__name, const void *__value,
+      |            ^~~~~~~~~
+make[2]: *** [CMakeFiles/cmTC_1de58.dir/build.make:78: CMakeFiles/cmTC_1de58.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_1de58/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Determining size of ADDRESS_FAMILY failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dcf1e/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_dcf1e.dir/build.make CMakeFiles/cmTC_dcf1e.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcf1e.dir/SIZEOF_ADDRESS_FAMILY.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_dcf1e.dir/SIZEOF_ADDRESS_FAMILY.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckTypeSize/SIZEOF_ADDRESS_FAMILY.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckTypeSize/SIZEOF_ADDRESS_FAMILY.c:4:10: fatal error: ws2def.h: No such file or directory
+    4 | #include "ws2def.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_dcf1e.dir/build.make:78: CMakeFiles/cmTC_dcf1e.dir/SIZEOF_ADDRESS_FAMILY.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_dcf1e/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckTypeSize/SIZEOF_ADDRESS_FAMILY.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "ws2def.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ADDRESS_FAMILY))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing Curl Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7974f/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_7974f.dir/build.make CMakeFiles/cmTC_7974f.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7974f.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_IOCTLSOCKET  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_7974f.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:245:44: error: ‘FIONBIO’ undeclared (first use in this function)
+  245 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                            ^~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:245:44: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_7974f.dir/build.make:78: CMakeFiles/cmTC_7974f.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_7974f/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_34930/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_34930.dir/build.make CMakeFiles/cmTC_34930.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34930.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_34930.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+Linking C executable cmTC_34930
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_34930.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_34930.dir/CurlTests.c.o -o cmTC_34930 
+/usr/bin/ld: CMakeFiles/cmTC_34930.dir/CurlTests.c.o: in function `main':
+CurlTests.c:(.text.startup+0x11): undefined reference to `IoctlSocket'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_34930.dir/build.make:99: cmTC_34930] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_34930/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_43b37/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_43b37.dir/build.make CMakeFiles/cmTC_43b37.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43b37.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_43b37.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:301:32: error: ‘FIONBIO’ undeclared (first use in this function)
+  301 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                                ^~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:301:32: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_43b37.dir/build.make:78: CMakeFiles/cmTC_43b37.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_43b37/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3c7bc/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_3c7bc.dir/build.make CMakeFiles/cmTC_3c7bc.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c7bc.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_3c7bc.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:328:32: error: ‘FIONBIO’ undeclared (first use in this function)
+  328 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                ^~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:328:32: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_3c7bc.dir/build.make:78: CMakeFiles/cmTC_3c7bc.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_3c7bc/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5cfa1/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5cfa1.dir/build.make CMakeFiles/cmTC_5cfa1.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cfa1.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_5cfa1.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:424:43: error: ‘SO_NONBLOCK’ undeclared (first use in this function); did you mean ‘SOCK_NONBLOCK’?
+  424 |         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                           ^~~~~~~~~~~
+      |                                           SOCK_NONBLOCK
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:424:43: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_5cfa1.dir/build.make:78: CMakeFiles/cmTC_5cfa1.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_5cfa1/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_35667/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_35667.dir/build.make CMakeFiles/cmTC_35667.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35667.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_O_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_35667.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+Linking C executable cmTC_35667
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_35667.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DHAVE_O_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_35667.dir/CurlTests.c.o -o cmTC_35667 
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_35667.dir/build.make:99: cmTC_35667] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_35667/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_740f9/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_740f9.dir/build.make CMakeFiles/cmTC_740f9.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_740f9.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_740f9.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:97:23: error: storage size of ‘hdata’ isn’t known
+   97 |   struct hostent_data hdata;
+      |                       ^~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:109:8: error: too few arguments to function ‘gethostbyname_r’
+  109 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:87:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/cmTC_740f9.dir/build.make:78: CMakeFiles/cmTC_740f9.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_740f9/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df98e/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_df98e.dir/build.make CMakeFiles/cmTC_df98e.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df98e.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_df98e.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:112:8: error: too few arguments to function ‘gethostbyname_r’
+  112 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:87:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/cmTC_df98e.dir/build.make:78: CMakeFiles/cmTC_df98e.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_df98e/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_893b7/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_893b7.dir/build.make CMakeFiles/cmTC_893b7.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_893b7.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_893b7.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:97:23: error: storage size of ‘hdata’ isn’t known
+   97 |   struct hostent_data hdata;
+      |                       ^~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:109:8: error: too few arguments to function ‘gethostbyname_r’
+  109 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:87:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/cmTC_893b7.dir/build.make:78: CMakeFiles/cmTC_893b7.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_893b7/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_307b3/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_307b3.dir/build.make CMakeFiles/cmTC_307b3.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_307b3.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_307b3.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:112:8: error: too few arguments to function ‘gethostbyname_r’
+  112 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:87:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/cmTC_307b3.dir/build.make:78: CMakeFiles/cmTC_307b3.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_307b3/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5725/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_c5725.dir/build.make CMakeFiles/cmTC_c5725.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5725.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_GLIBC_STRERROR_R  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_c5725.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:440:51: error: subscripted value is neither array nor pointer nor vector
+  440 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |                                                   ^
+make[2]: *** [CMakeFiles/cmTC_c5725.dir/build.make:78: CMakeFiles/cmTC_c5725.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_c5725/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_22981/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_22981.dir/build.make CMakeFiles/cmTC_22981.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22981.dir/CurlTests.c.o
+/usr/bin/gcc   -O2 -w -DHAVE_BUILTIN_AVAILABLE  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -o CMakeFiles/cmTC_22981.dir/CurlTests.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:487:26: error: ‘macOS’ undeclared (first use in this function)
+  487 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                          ^~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:487:26: note: each undeclared identifier is reported only once for each function it appears in
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Utilities/cmcurl/CMake/CurlTests.c:487:31: error: expected ‘)’ before numeric constant
+  487 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                               ^~~~~~
+      |                               )
+make[2]: *** [CMakeFiles/cmTC_22981.dir/build.make:78: CMakeFiles/cmTC_22981.dir/CurlTests.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_22981/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the arc4random_buf exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0c386/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_0c386.dir/build.make CMakeFiles/cmTC_0c386.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c386.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_0c386.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘arc4random_buf’ undeclared (first use in this function)
+    8 |   return ((int*)(&arc4random_buf))[argc];
+      |                   ^~~~~~~~~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_0c386.dir/build.make:78: CMakeFiles/cmTC_0c386.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_0c386/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random_buf
+  return ((int*)(&arc4random_buf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the arc4random exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6702b/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_6702b.dir/build.make CMakeFiles/cmTC_6702b.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6702b.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_6702b.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘arc4random’ undeclared (first use in this function); did you mean ‘srandom’?
+    8 |   return ((int*)(&arc4random))[argc];
+      |                   ^~~~~~~~~~
+      |                   srandom
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_6702b.dir/build.make:78: CMakeFiles/cmTC_6702b.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_6702b/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files sys/types.h;ctype.h;copyfile.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9a571/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_9a571.dir/build.make CMakeFiles/cmTC_9a571.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a571.dir/HAVE_COPYFILE_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_9a571.dir/HAVE_COPYFILE_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_COPYFILE_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_COPYFILE_H.c:4:10: fatal error: copyfile.h: No such file or directory
+    4 | #include <copyfile.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_9a571.dir/build.make:78: CMakeFiles/cmTC_9a571.dir/HAVE_COPYFILE_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_9a571/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <copyfile.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;direct.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_93c34/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_93c34.dir/build.make CMakeFiles/cmTC_93c34.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93c34.dir/HAVE_DIRECT_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_93c34.dir/HAVE_DIRECT_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_DIRECT_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_DIRECT_H.c:4:10: fatal error: direct.h: No such file or directory
+    4 | #include <direct.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_93c34.dir/build.make:78: CMakeFiles/cmTC_93c34.dir/HAVE_DIRECT_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_93c34/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <direct.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;ext2fs/ext2_fs.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_543f8/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_543f8.dir/build.make CMakeFiles/cmTC_543f8.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_543f8.dir/HAVE_EXT2FS_EXT2_FS_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_543f8.dir/HAVE_EXT2FS_EXT2_FS_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_EXT2FS_EXT2_FS_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_EXT2FS_EXT2_FS_H.c:6:10: fatal error: ext2fs/ext2_fs.h: No such file or directory
+    6 | #include <ext2fs/ext2_fs.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_543f8.dir/build.make:78: CMakeFiles/cmTC_543f8.dir/HAVE_EXT2FS_EXT2_FS_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_543f8/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <ext2fs/ext2_fs.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_WORKING_EXT2_IOC_GETFLAGS failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60bfb/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_60bfb.dir/build.make CMakeFiles/cmTC_60bfb.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60bfb.dir/src.c.o
+/usr/bin/gcc -DHAVE_WORKING_EXT2_IOC_GETFLAGS  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_60bfb.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: ext2fs/ext2_fs.h: No such file or directory
+    2 | #include <ext2fs/ext2_fs.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_60bfb.dir/build.make:78: CMakeFiles/cmTC_60bfb.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_60bfb/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/ioctl.h>
+#include <ext2fs/ext2_fs.h>
+int main(void) { return EXT2_IOC_GETFLAGS; }
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;membership.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_76ef4/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_76ef4.dir/build.make CMakeFiles/cmTC_76ef4.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76ef4.dir/HAVE_MEMBERSHIP_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_76ef4.dir/HAVE_MEMBERSHIP_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_MEMBERSHIP_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_MEMBERSHIP_H.c:15:10: fatal error: membership.h: No such file or directory
+   15 | #include <membership.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_76ef4.dir/build.make:78: CMakeFiles/cmTC_76ef4.dir/HAVE_MEMBERSHIP_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_76ef4/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <membership.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;readpassphrase.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_296e0/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_296e0.dir/build.make CMakeFiles/cmTC_296e0.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_296e0.dir/HAVE_READPASSPHRASE_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_296e0.dir/HAVE_READPASSPHRASE_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_READPASSPHRASE_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_READPASSPHRASE_H.c:20:10: fatal error: readpassphrase.h: No such file or directory
+   20 | #include <readpassphrase.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_296e0.dir/build.make:78: CMakeFiles/cmTC_296e0.dir/HAVE_READPASSPHRASE_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_296e0/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <readpassphrase.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdlib.h;string.h;strings.h;sys/acl.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_171da/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_171da.dir/build.make CMakeFiles/cmTC_171da.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_171da.dir/HAVE_SYS_ACL_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_171da.dir/HAVE_SYS_ACL_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_ACL_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_ACL_H.c:27:10: fatal error: sys/acl.h: No such file or directory
+   27 | #include <sys/acl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_171da.dir/build.make:78: CMakeFiles/cmTC_171da.dir/HAVE_SYS_ACL_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_171da/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/acl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/extattr.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df7c2/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_df7c2.dir/build.make CMakeFiles/cmTC_df7c2.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df7c2.dir/HAVE_SYS_EXTATTR_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_df7c2.dir/HAVE_SYS_EXTATTR_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EXTATTR_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EXTATTR_H.c:28:10: fatal error: sys/extattr.h: No such file or directory
+   28 | #include <sys/extattr.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_df7c2.dir/build.make:78: CMakeFiles/cmTC_df7c2.dir/HAVE_SYS_EXTATTR_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_df7c2/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/extattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/mkdev.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c21e/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_2c21e.dir/build.make CMakeFiles/cmTC_2c21e.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c21e.dir/HAVE_SYS_MKDEV_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_2c21e.dir/HAVE_SYS_MKDEV_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MKDEV_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MKDEV_H.c:29:10: fatal error: sys/mkdev.h: No such file or directory
+   29 | #include <sys/mkdev.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_2c21e.dir/build.make:78: CMakeFiles/cmTC_2c21e.dir/HAVE_SYS_MKDEV_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_2c21e/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/mkdev.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/mount.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b04f8/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_b04f8.dir/build.make CMakeFiles/cmTC_b04f8.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b04f8.dir/HAVE_SYS_MOUNT_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_b04f8.dir/HAVE_SYS_MOUNT_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MOUNT_H.c
+In file included from /usr/include/linux/fs.h:19,
+                 from /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MOUNT_H.c:12:
+/usr/include/x86_64-linux-gnu/sys/mount.h:35:3: error: expected identifier before numeric constant
+   35 |   MS_RDONLY = 1,  /* Mount read-only.  */
+      |   ^~~~~~~~~
+make[2]: *** [CMakeFiles/cmTC_b04f8.dir/build.make:78: CMakeFiles/cmTC_b04f8.dir/HAVE_SYS_MOUNT_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_b04f8/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/mount.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/richacl.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_91f0c/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_91f0c.dir/build.make CMakeFiles/cmTC_91f0c.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91f0c.dir/HAVE_SYS_RICHACL_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_91f0c.dir/HAVE_SYS_RICHACL_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RICHACL_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RICHACL_H.c:31:10: fatal error: sys/richacl.h: No such file or directory
+   31 | #include <sys/richacl.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_91f0c.dir/build.make:78: CMakeFiles/cmTC_91f0c.dir/HAVE_SYS_RICHACL_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_91f0c/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/richacl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/select.h;sys/stat.h;sys/statfs.h;sys/statvfs.h;sys/sysmacros.h;sys/time.h;sys/utsname.h;sys/vfs.h;sys/wait.h;sys/xattr.h;time.h;unistd.h;utime.h;wchar.h;wctype.h;windows.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ed8c7/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ed8c7.dir/build.make CMakeFiles/cmTC_ed8c7.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed8c7.dir/HAVE_WINDOWS_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_ed8c7.dir/HAVE_WINDOWS_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:46:10: fatal error: windows.h: No such file or directory
+   46 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_ed8c7.dir/build.make:78: CMakeFiles/cmTC_ed8c7.dir/HAVE_WINDOWS_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_ed8c7/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/statfs.h>
+#include <sys/statvfs.h>
+#include <sys/sysmacros.h>
+#include <sys/time.h>
+#include <sys/utsname.h>
+#include <sys/vfs.h>
+#include <sys/wait.h>
+#include <sys/xattr.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <wchar.h>
+#include <wctype.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/select.h;sys/stat.h;sys/statfs.h;sys/statvfs.h;sys/sysmacros.h;sys/time.h;sys/utsname.h;sys/vfs.h;sys/wait.h;sys/xattr.h;time.h;unistd.h;utime.h;wchar.h;wctype.h;wincrypt.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6372f/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_6372f.dir/build.make CMakeFiles/cmTC_6372f.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6372f.dir/HAVE_WINCRYPT_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_6372f.dir/HAVE_WINCRYPT_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_WINCRYPT_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_WINCRYPT_H.c:46:10: fatal error: wincrypt.h: No such file or directory
+   46 | #include <wincrypt.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_6372f.dir/build.make:78: CMakeFiles/cmTC_6372f.dir/HAVE_WINCRYPT_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_6372f/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/statfs.h>
+#include <sys/statvfs.h>
+#include <sys/sysmacros.h>
+#include <sys/time.h>
+#include <sys/utsname.h>
+#include <sys/vfs.h>
+#include <sys/wait.h>
+#include <sys/xattr.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <wchar.h>
+#include <wctype.h>
+#include <wincrypt.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/select.h;sys/stat.h;sys/statfs.h;sys/statvfs.h;sys/sysmacros.h;sys/time.h;sys/utsname.h;sys/vfs.h;sys/wait.h;sys/xattr.h;time.h;unistd.h;utime.h;wchar.h;wctype.h;winioctl.h exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b5679/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_b5679.dir/build.make CMakeFiles/cmTC_b5679.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5679.dir/HAVE_WINIOCTL_H.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_b5679.dir/HAVE_WINIOCTL_H.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_WINIOCTL_H.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CheckIncludeFiles/HAVE_WINIOCTL_H.c:46:10: fatal error: winioctl.h: No such file or directory
+   46 | #include <winioctl.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_b5679.dir/build.make:78: CMakeFiles/cmTC_b5679.dir/HAVE_WINIOCTL_H.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_b5679/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/statfs.h>
+#include <sys/statvfs.h>
+#include <sys/sysmacros.h>
+#include <sys/time.h>
+#include <sys/utsname.h>
+#include <sys/vfs.h>
+#include <sys/wait.h>
+#include <sys/xattr.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <wchar.h>
+#include <wctype.h>
+#include <winioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if the function MD5Init exists in the md failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb4f8/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_eb4f8.dir/build.make CMakeFiles/cmTC_eb4f8.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb4f8.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=MD5Init -std=gnu11 -o CMakeFiles/cmTC_eb4f8.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb4f8
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_eb4f8.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=MD5Init -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_eb4f8.dir/CheckFunctionExists.c.o -o cmTC_eb4f8  -lmd 
+/usr/bin/ld: cannot find -lmd
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_eb4f8.dir/build.make:99: cmTC_eb4f8] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_eb4f8/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getvfsbyname exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2235a/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_2235a.dir/build.make CMakeFiles/cmTC_2235a.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2235a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=getvfsbyname  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_2235a.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2235a
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_2235a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=getvfsbyname  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_2235a.dir/CheckFunctionExists.c.o -o cmTC_2235a 
+/usr/bin/ld: CMakeFiles/cmTC_2235a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `getvfsbyname'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_2235a.dir/build.make:99: cmTC_2235a] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_2235a/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function lchflags exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3605a/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_3605a.dir/build.make CMakeFiles/cmTC_3605a.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3605a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=lchflags  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_3605a.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3605a
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_3605a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=lchflags  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_3605a.dir/CheckFunctionExists.c.o -o cmTC_3605a 
+/usr/bin/ld: CMakeFiles/cmTC_3605a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `lchflags'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_3605a.dir/build.make:99: cmTC_3605a] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_3605a/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function readpassphrase exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b9abe/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_b9abe.dir/build.make CMakeFiles/cmTC_b9abe.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9abe.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=readpassphrase  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_b9abe.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9abe
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_b9abe.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=readpassphrase  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_b9abe.dir/CheckFunctionExists.c.o -o cmTC_b9abe 
+/usr/bin/ld: CMakeFiles/cmTC_b9abe.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `readpassphrase'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_b9abe.dir/build.make:99: cmTC_b9abe] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_b9abe/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strncpy_s exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e1598/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_e1598.dir/build.make CMakeFiles/cmTC_e1598.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1598.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=strncpy_s  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_e1598.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e1598
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_e1598.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=strncpy_s  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_e1598.dir/CheckFunctionExists.c.o -o cmTC_e1598 
+/usr/bin/ld: CMakeFiles/cmTC_e1598.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `strncpy_s'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_e1598.dir/build.make:99: cmTC_e1598] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_e1598/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function _ctime64_s exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ef373/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ef373.dir/build.make CMakeFiles/cmTC_ef373.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef373.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=_ctime64_s  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_ef373.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef373
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_ef373.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=_ctime64_s  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_ef373.dir/CheckFunctionExists.c.o -o cmTC_ef373 
+/usr/bin/ld: CMakeFiles/cmTC_ef373.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `_ctime64_s'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_ef373.dir/build.make:99: cmTC_ef373] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_ef373/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function _fseeki64 exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4de3e/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_4de3e.dir/build.make CMakeFiles/cmTC_4de3e.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4de3e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=_fseeki64  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_4de3e.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4de3e
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_4de3e.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=_fseeki64  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_4de3e.dir/CheckFunctionExists.c.o -o cmTC_4de3e 
+/usr/bin/ld: CMakeFiles/cmTC_4de3e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `_fseeki64'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_4de3e.dir/build.make:99: cmTC_4de3e] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_4de3e/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function _get_timezone exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e31c0/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_e31c0.dir/build.make CMakeFiles/cmTC_e31c0.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e31c0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=_get_timezone  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_e31c0.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e31c0
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_e31c0.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=_get_timezone  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_e31c0.dir/CheckFunctionExists.c.o -o cmTC_e31c0 
+/usr/bin/ld: CMakeFiles/cmTC_e31c0.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `_get_timezone'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_e31c0.dir/build.make:99: cmTC_e31c0] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_e31c0/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function _gmtime64_s exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2356d/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_2356d.dir/build.make CMakeFiles/cmTC_2356d.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2356d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=_gmtime64_s  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_2356d.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2356d
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_2356d.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=_gmtime64_s  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_2356d.dir/CheckFunctionExists.c.o -o cmTC_2356d 
+/usr/bin/ld: CMakeFiles/cmTC_2356d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `_gmtime64_s'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_2356d.dir/build.make:99: cmTC_2356d] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_2356d/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function _localtime64_s exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5593e/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5593e.dir/build.make CMakeFiles/cmTC_5593e.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5593e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=_localtime64_s  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_5593e.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5593e
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_5593e.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=_localtime64_s  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_5593e.dir/CheckFunctionExists.c.o -o cmTC_5593e 
+/usr/bin/ld: CMakeFiles/cmTC_5593e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `_localtime64_s'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_5593e.dir/build.make:99: cmTC_5593e] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_5593e/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function _mkgmtime64 exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8497a/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_8497a.dir/build.make CMakeFiles/cmTC_8497a.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8497a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=_mkgmtime64  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_8497a.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8497a
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_8497a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=_mkgmtime64  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_8497a.dir/CheckFunctionExists.c.o -o cmTC_8497a 
+/usr/bin/ld: CMakeFiles/cmTC_8497a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `_mkgmtime64'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_8497a.dir/build.make:99: cmTC_8497a] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_8497a/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cygwin_conv_path exists failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fed45/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_fed45.dir/build.make CMakeFiles/cmTC_fed45.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fed45.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -w -DCHECK_FUNCTION_EXISTS=cygwin_conv_path  -fno-builtin -std=gnu11 -o CMakeFiles/cmTC_fed45.dir/CheckFunctionExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fed45
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_fed45.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -w -DCHECK_FUNCTION_EXISTS=cygwin_conv_path  -fno-builtin -L/workspaces/labsisop-buildroot/output/host/lib -Wl,-rpath,/workspaces/labsisop-buildroot/output/host/lib  CMakeFiles/cmTC_fed45.dir/CheckFunctionExists.c.o -o cmTC_fed45 
+/usr/bin/ld: CMakeFiles/cmTC_fed45.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0x10): undefined reference to `cygwin_conv_path'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_fed45.dir/build.make:99: cmTC_fed45] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_fed45/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_VFSCONF failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9e864/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_9e864.dir/build.make CMakeFiles/cmTC_9e864.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e864.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_VFSCONF  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_9e864.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:3:33: error: storage size of ‘v’ isn’t known
+    3 | int main(void) { struct vfsconf v; return sizeof(v);}
+      |                                 ^
+make[2]: *** [CMakeFiles/cmTC_9e864.dir/build.make:78: CMakeFiles/cmTC_9e864.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_9e864/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/types.h>
+#include <sys/mount.h>
+int main(void) { struct vfsconf v; return sizeof(v);}
+Performing C SOURCE FILE Test HAVE_STRUCT_XVFSCONF failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_813b4/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_813b4.dir/build.make CMakeFiles/cmTC_813b4.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_813b4.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_XVFSCONF  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_813b4.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:3:34: error: storage size of ‘v’ isn’t known
+    3 | int main(void) { struct xvfsconf v; return sizeof(v);}
+      |                                  ^
+make[2]: *** [CMakeFiles/cmTC_813b4.dir/build.make:78: CMakeFiles/cmTC_813b4.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_813b4/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/types.h>
+#include <sys/mount.h>
+int main(void) { struct xvfsconf v; return sizeof(v);}
+Performing C SOURCE FILE Test MAJOR_IN_MKDEV failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a2391/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_a2391.dir/build.make CMakeFiles/cmTC_a2391.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2391.dir/src.c.o
+/usr/bin/gcc -DMAJOR_IN_MKDEV  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_a2391.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: sys/mkdev.h: No such file or directory
+    1 | #include <sys/mkdev.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_a2391.dir/build.make:78: CMakeFiles/cmTC_a2391.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_a2391/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/mkdev.h>
+int main() { return major(256); }
+Determining if the EFTYPE exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0b3d3/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_0b3d3.dir/build.make CMakeFiles/cmTC_0b3d3.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b3d3.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_0b3d3.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘EFTYPE’ undeclared (first use in this function)
+    8 |   return ((int*)(&EFTYPE))[argc];
+      |                   ^~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_0b3d3.dir/build.make:78: CMakeFiles/cmTC_0b3d3.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_0b3d3/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <errno.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef EFTYPE
+  return ((int*)(&EFTYPE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the D_MD_ORDER exist failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_15e6f/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_15e6f.dir/build.make CMakeFiles/cmTC_15e6f.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15e6f.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_15e6f.dir/CheckSymbolExists.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘D_MD_ORDER’ undeclared (first use in this function)
+    8 |   return ((int*)(&D_MD_ORDER))[argc];
+      |                   ^~~~~~~~~~
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [CMakeFiles/cmTC_15e6f.dir/build.make:78: CMakeFiles/cmTC_15e6f.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_15e6f/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+File /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <langinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef D_MD_ORDER
+  return ((int*)(&D_MD_ORDER))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_TM___TM_GMTOFF failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c640/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5c640.dir/build.make CMakeFiles/cmTC_5c640.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c640.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_TM___TM_GMTOFF  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_5c640.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:6:34: error: ‘struct tm’ has no member named ‘__tm_gmtoff’; did you mean ‘tm_gmtoff’?
+    6 |   (void)sizeof(((struct tm *)0)->__tm_gmtoff);
+      |                                  ^~~~~~~~~~~
+      |                                  tm_gmtoff
+make[2]: *** [CMakeFiles/cmTC_5c640.dir/build.make:78: CMakeFiles/cmTC_5c640.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_5c640/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->__tm_gmtoff);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STATFS_F_NAMEMAX failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4b8c2/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_4b8c2.dir/build.make CMakeFiles/cmTC_4b8c2.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b8c2.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STATFS_F_NAMEMAX  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_4b8c2.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:36: error: dereferencing pointer to incomplete type ‘struct statfs’
+    7 |   (void)sizeof(((struct statfs *)0)->f_namemax);
+      |                                    ^~
+make[2]: *** [CMakeFiles/cmTC_4b8c2.dir/build.make:78: CMakeFiles/cmTC_4b8c2.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_4b8c2/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/param.h>
+#include <sys/mount.h>
+
+int main()
+{
+  (void)sizeof(((struct statfs *)0)->f_namemax);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_BIRTHTIME failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f68fc/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_f68fc.dir/build.make CMakeFiles/cmTC_f68fc.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f68fc.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STAT_ST_BIRTHTIME  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_f68fc.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_birthtime’
+    7 |   (void)sizeof(((struct stat *)0)->st_birthtime);
+      |                                  ^~
+make[2]: *** [CMakeFiles/cmTC_f68fc.dir/build.make:78: CMakeFiles/cmTC_f68fc.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_f68fc/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_birthtime);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9a32a/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_9a32a.dir/build.make CMakeFiles/cmTC_9a32a.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a32a.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_9a32a.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_birthtimespec’
+    7 |   (void)sizeof(((struct stat *)0)->st_birthtimespec.tv_nsec);
+      |                                  ^~
+make[2]: *** [CMakeFiles/cmTC_9a32a.dir/build.make:78: CMakeFiles/cmTC_9a32a.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_9a32a/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_birthtimespec.tv_nsec);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_08be1/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_08be1.dir/build.make CMakeFiles/cmTC_08be1.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08be1.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_08be1.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_mtimespec’
+    7 |   (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+      |                                  ^~
+make[2]: *** [CMakeFiles/cmTC_08be1.dir/build.make:78: CMakeFiles/cmTC_08be1.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_08be1/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIME_N failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ff99b/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ff99b.dir/build.make CMakeFiles/cmTC_ff99b.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff99b.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STAT_ST_MTIME_N  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_ff99b.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:36: error: ‘struct stat’ has no member named ‘st_mtime_n’; did you mean ‘st_mtim’?
+    7 |   (void)sizeof(((struct stat *)0)->st_mtime_n);
+      |                                    ^~~~~~~~~~
+      |                                    st_mtim
+make[2]: *** [CMakeFiles/cmTC_ff99b.dir/build.make:78: CMakeFiles/cmTC_ff99b.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_ff99b/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtime_n);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_UMTIME failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d32e/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_1d32e.dir/build.make CMakeFiles/cmTC_1d32e.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d32e.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STAT_ST_UMTIME  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_1d32e.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:36: error: ‘struct stat’ has no member named ‘st_umtime’; did you mean ‘st_mtim’?
+    7 |   (void)sizeof(((struct stat *)0)->st_umtime);
+      |                                    ^~~~~~~~~
+      |                                    st_mtim
+make[2]: *** [CMakeFiles/cmTC_1d32e.dir/build.make:78: CMakeFiles/cmTC_1d32e.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_1d32e/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_umtime);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIME_USEC failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3d1d8/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_3d1d8.dir/build.make CMakeFiles/cmTC_3d1d8.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d1d8.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STAT_ST_MTIME_USEC  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_3d1d8.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_mtime_usec’
+    7 |   (void)sizeof(((struct stat *)0)->st_mtime_usec);
+      |                                  ^~
+make[2]: *** [CMakeFiles/cmTC_3d1d8.dir/build.make:78: CMakeFiles/cmTC_3d1d8.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_3d1d8/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtime_usec);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_FLAGS failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7479f/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_7479f.dir/build.make CMakeFiles/cmTC_7479f.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7479f.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STAT_ST_FLAGS  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_7479f.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_flags’
+    7 |   (void)sizeof(((struct stat *)0)->st_flags);
+      |                                  ^~
+make[2]: *** [CMakeFiles/cmTC_7479f.dir/build.make:78: CMakeFiles/cmTC_7479f.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_7479f/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_flags);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STATVFS_F_IOSIZE failed with the following output:
+Change Dir: /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e0120/fast && make[1]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_e0120.dir/build.make CMakeFiles/cmTC_e0120.dir/build
+make[2]: Entering directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0120.dir/src.c.o
+/usr/bin/gcc -DHAVE_STRUCT_STATVFS_F_IOSIZE  -O2 -w  -std=gnu11 -o CMakeFiles/cmTC_e0120.dir/src.c.o -c /workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp/src.c:7:39: error: ‘struct statvfs’ has no member named ‘f_iosize’; did you mean ‘f_bsize’?
+    7 |   (void)sizeof(((struct statvfs *)0)->f_iosize);
+      |                                       ^~~~~~~~
+      |                                       f_bsize
+make[2]: *** [CMakeFiles/cmTC_e0120.dir/build.make:78: CMakeFiles/cmTC_e0120.dir/src.c.o] Error 1
+make[2]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:127: cmTC_e0120/fast] Error 2
+make[1]: Leaving directory '/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/statvfs.h>
+
+int main()
+{
+  (void)sizeof(((struct statvfs *)0)->f_iosize);
+  return 0;
+}
+
+Looking for a Fortran compiler failed with the following output:
+-- The Fortran compiler identification is unknown
+[31mCMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_Fortran_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "FC" or the CMake cache entry CMAKE_Fortran_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeOutput.log".
+See also "/workspaces/labsisop-buildroot/output/build/host-cmake-3.22.3/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeError.log".
+

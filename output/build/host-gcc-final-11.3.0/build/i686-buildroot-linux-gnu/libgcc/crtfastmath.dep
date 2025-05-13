@@ -1,0 +1,5 @@
+crtfastmath.o: ../../../libgcc/config/i386/crtfastmath.c \
+ /workspaces/labsisop-buildroot/output/host/i686-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-final-11.3.0/build/gcc/include/cpuid.h
+/workspaces/labsisop-buildroot/output/host/i686-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h:
+/workspaces/labsisop-buildroot/output/build/host-gcc-final-11.3.0/build/gcc/include/cpuid.h:

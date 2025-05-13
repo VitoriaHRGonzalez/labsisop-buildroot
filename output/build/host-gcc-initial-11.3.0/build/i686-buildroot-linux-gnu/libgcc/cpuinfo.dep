@@ -1,0 +1,20 @@
+cpuinfo.o: ../../../libgcc/config/i386/cpuinfo.c \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cpuid.h \
+ ../../../libgcc/../gcc/tsystem.h \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/stddef.h \
+ /workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/float.h \
+ ../../../libgcc/../include/filenames.h \
+ ../../../libgcc/../include/hashtab.h \
+ ../../../libgcc/../include/ansidecl.h auto-target.h \
+ ../../../libgcc/../gcc/common/config/i386/i386-cpuinfo.h \
+ ../../../libgcc/../gcc/common/config/i386/cpuinfo.h
+/workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/cpuid.h:
+../../../libgcc/../gcc/tsystem.h:
+/workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/stddef.h:
+/workspaces/labsisop-buildroot/output/build/host-gcc-initial-11.3.0/build/gcc/include/float.h:
+../../../libgcc/../include/filenames.h:
+../../../libgcc/../include/hashtab.h:
+../../../libgcc/../include/ansidecl.h:
+auto-target.h:
+../../../libgcc/../gcc/common/config/i386/i386-cpuinfo.h:
+../../../libgcc/../gcc/common/config/i386/cpuinfo.h:

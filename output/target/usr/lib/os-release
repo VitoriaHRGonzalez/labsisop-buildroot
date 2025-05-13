@@ -1,0 +1,5 @@
+NAME=Buildroot
+VERSION=-g9e8a7720c
+ID=buildroot
+VERSION_ID=2023.02
+PRETTY_NAME="Buildroot 2023.02"

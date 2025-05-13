@@ -1,0 +1,7 @@
+/workspaces/labsisop-buildroot/package/gcc/11.3.0/0001-or1k-Add-mcmodel-option-to-handle-large-GOTs.patch
+/workspaces/labsisop-buildroot/package/gcc/11.3.0/0002-or1k-Use-cmodel-large-when-building-crtstuff.patch
+/workspaces/labsisop-buildroot/package/gcc/11.3.0/0003-gcc-define-_REENTRANT-for-OpenRISC-when-pthread-is-p.patch
+/workspaces/labsisop-buildroot/package/gcc/11.3.0/0004-disable-split-stack-for-non-thread-builds.patch
+/workspaces/labsisop-buildroot/package/gcc/11.3.0/0005-rs6000-Improve-.machine.patch
+/workspaces/labsisop-buildroot/package/gcc/11.3.0/0006-rs6000-Do-not-use-rs6000_cpu-for-.machine-ppc-and-pp.patch
+/workspaces/labsisop-buildroot/package/gcc/11.3.0/0007-fixinc-don-t-fix-machine-names-in-__has_include-.-PR.patch

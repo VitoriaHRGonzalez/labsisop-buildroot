@@ -1,0 +1,1 @@
+cmd_archival/lib.a := rm -f archival/lib.a; /workspaces/labsisop-buildroot/output/host/bin/i686-buildroot-linux-gnu-gcc-ar  rcs archival/lib.a archival/ar.o archival/bbunzip.o archival/chksum_and_xwrite_tar_header.o archival/cpio.o archival/gzip.o archival/lzop.o archival/tar.o archival/unzip.o

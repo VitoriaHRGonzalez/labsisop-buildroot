@@ -1,0 +1,9 @@
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/libninja-re2c.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/libninja.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/ninja.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/edit_cache.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/rebuild_cache.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/list_install_components.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/install.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/install/local.dir
+/workspaces/labsisop-buildroot/output/build/host-ninja-1.11.1.g95dee.kitware.jobserver-1/CMakeFiles/install/strip.dir
